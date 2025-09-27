@@ -23,7 +23,7 @@ public class GroqService {
 
         System.out.println("🧐 Your Question: " + question);
 
-        // ✅ Prepare message
+        //Preparing message
         Map<String, Object> message = Map.of("role", "user", "content", question);
         Map<String, Object> body = Map.of(
                 "model", "llama3-70b-8192", // Groq popular model
